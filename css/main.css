@@ -5,6 +5,7 @@ body {
     align-items: center;
     height: 90vh;
     font-family: 'Courier New', Courier, monospace;
+    background-image: url('../images/background.jpg');
 }
 
 .title {
