@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    height: 90vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.subtitle {
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+.highlight {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.complete-balloon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30%;
+    animation: 2s infinite alternate-reverse balloonfloat;
+}
+
+.balloon {
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    border-radius: 50%;
+}
+
+.balloon-string {
+    border-left: solid 1px black;
+    height: 250px;
+}
+
+@keyframes balloonfloat {
+  from {
+    transform: translateY(-20%);
+  }
+  to {
+    transform: translateY(-10%);
+  }
+}
+
+.explosion{
+    margin-bottom: 90%;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
