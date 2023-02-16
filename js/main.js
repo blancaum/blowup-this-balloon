@@ -1,3 +1,5 @@
+'use strict';
+
 //Elementos HTML
 const balloon = document.querySelector('.js_balloon');
 const completeBalloon = document.querySelector('.js_complete_balloon');
